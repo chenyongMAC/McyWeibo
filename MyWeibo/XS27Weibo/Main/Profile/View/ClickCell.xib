@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ClickCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ClickCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aIo-xE-Jpj">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="O83-zx-wOZ"/>
+                            <constraint firstAttribute="height" constant="50" id="R0k-5j-x9m"/>
+                            <constraint firstAttribute="height" constant="50" id="YCv-sa-oEn"/>
+                            <constraint firstAttribute="width" constant="100" id="fXh-AR-VJY"/>
+                            <constraint firstAttribute="height" constant="50" id="qJR-SY-eDy"/>
+                            <constraint firstAttribute="width" constant="100" id="sOa-Ih-Ida"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="微博">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="STHeitiSC-Light"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="O83-zx-wOZ"/>
+                                <exclude reference="R0k-5j-x9m"/>
+                                <exclude reference="YCv-sa-oEn"/>
+                                <exclude reference="fXh-AR-VJY"/>
+                            </mask>
+                        </variation>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UbW-cj-irH">
+                        <rect key="frame" x="220" y="0.0" width="100" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="3Kg-xL-CUd"/>
+                            <constraint firstAttribute="height" constant="50" id="gY6-11-Ll0"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="评论">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="STHeitiSC-Light"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AgM-51-e6v">
+                        <rect key="frame" x="100" y="-1" width="120" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="b34-Wd-MOR"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="关注">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="STHeitiSC-Light"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UbW-cj-irH" secondAttribute="trailing" id="1Tk-2W-qjx"/>
+                    <constraint firstAttribute="bottom" secondItem="AgM-51-e6v" secondAttribute="bottom" id="33U-zy-l5r"/>
+                    <constraint firstItem="UbW-cj-irH" firstAttribute="leading" secondItem="AgM-51-e6v" secondAttribute="trailing" id="49l-Ep-Opo"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="5gu-D4-fDV"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="MFM-b2-xWV"/>
+                    <constraint firstItem="UbW-cj-irH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZqN-rD-EWB"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="dMK-qO-78h"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dxb-cE-lri"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="uGQ-JK-skh"/>
+                    <constraint firstItem="aIo-xE-Jpj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="z1N-fo-4r6"/>
+                    <constraint firstItem="AgM-51-e6v" firstAttribute="leading" secondItem="aIo-xE-Jpj" secondAttribute="trailing" id="zBU-K5-Tgt"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="5gu-D4-fDV"/>
+                        <exclude reference="MFM-b2-xWV"/>
+                        <exclude reference="dMK-qO-78h"/>
+                        <exclude reference="uGQ-JK-skh"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentBtn" destination="UbW-cj-irH" id="eKO-d4-fyJ"/>
+                <outlet property="focusBtn" destination="AgM-51-e6v" id="2dn-78-NdO"/>
+                <outlet property="weiboBtn" destination="aIo-xE-Jpj" id="x2k-uT-Ker"/>
+            </connections>
+            <point key="canvasLocation" x="333" y="236"/>
+        </tableViewCell>
+    </objects>
+</document>

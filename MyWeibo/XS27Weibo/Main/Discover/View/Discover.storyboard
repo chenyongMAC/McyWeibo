@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hZ7-Lw-ork">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Base Nav Controller-->
+        <scene sceneID="i6E-RH-gaF">
+            <objects>
+                <navigationController id="hZ7-Lw-ork" customClass="BaseNavController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dfc-qB-fZE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WAS-bj-Qpy" kind="relationship" relationship="rootViewController" id="Ats-DL-5vd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IBS-z7-4xl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93.86666666666666" y="335.12"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="owd-Vt-zar">
+            <objects>
+                <viewController id="WAS-bj-Qpy" customClass="DiscoverViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1VU-sH-3L9"/>
+                        <viewControllerLayoutGuide type="bottom" id="K9O-Q5-1u5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7iz-u1-DZh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ew6-4a-Jxh">
+                                <rect key="frame" x="20" y="100" width="100" height="100"/>
+                                <state key="normal" title="Button" image="附近微博.jpg"/>
+                                <connections>
+                                    <action selector="nearByWeibo:" destination="WAS-bj-Qpy" eventType="touchUpInside" id="lv7-1p-Sb3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="发现" id="axp-98-1pl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xG1-1H-EQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="335"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="附近微博.jpg" width="184" height="184"/>
+    </resources>
+</document>
