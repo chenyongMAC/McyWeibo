@@ -3,7 +3,7 @@
 //  HWWeibo
 //
 //  Created by gj on 15/9/2.
-//  Copyright (c) 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
+//  Copyright (c) 2015年 mac All rights reserved.
 //
 
 #import <MapKit/MapKit.h>

@@ -3,7 +3,7 @@
 //  XS27Weibo
 //
 //  Created by 陈勇 on 15/10/12.
-//  Copyright © 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
+//  Copyright (c) 2015年 mac All rights reserved.
 //
 
 #import "WeiboView.h"
@@ -110,7 +110,7 @@
             _imgView.frame = _layout.imgFrame;
             [_imgView sd_setImageWithURL:[NSURL URLWithString:imageStr]];
             
-            //传递网络原图地址
+#pragma mark - 传递原始图片网络地址到ZoomImageView，为大图浏览做准备
             _imgView.fullImageString = model.reWeiboModel.originalImage;
         }
         

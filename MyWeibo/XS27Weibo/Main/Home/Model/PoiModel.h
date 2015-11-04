@@ -3,7 +3,7 @@
 //  XS27Weibo
 //
 //  Created by 陈勇 on 15/10/19.
-//  Copyright © 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
+//  Copyright (c) 2015年 mac All rights reserved.
 //
 
 #import "BaseModel.h"

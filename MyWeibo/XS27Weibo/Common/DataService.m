@@ -2,8 +2,8 @@
 //  DataService.m
 //  04 weibo
 //
-//  Created by gj on 15/8/12.
-//  Copyright (c) 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
+//  Created by 陈勇 on 15/8/12.
+//  Copyright (c) 2015年 mac All rights reserved.
 //
 
 #import "DataService.h"

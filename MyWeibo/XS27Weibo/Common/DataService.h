@@ -3,7 +3,7 @@
 //  04 weibo
 //
 //  Created by gj on 15/8/12.
-//  Copyright (c) 2015年 www.huiwen.com 杭州汇文教育. All rights reserved.
+//  Copyright (c) 2015年 mac All rights reserved.x
 //
 
 #import <Foundation/Foundation.h>
